@@ -13,34 +13,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
-  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 25%);
+  background: #21222a;
+  padding: 30px 20px;
 }
 
 .logo {
-  width: 40px;
+  width: 30px;
+  background: #21222a;
 }
 
-.nav-items {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-}
-
-.mainContent {
-  margin-top: 20px;
-}
-
-.header1 {
+.h3 {
+  color: #61dafb;
   margin: 0;
 }
 
-.footer {
-  width: 100%;
-  text-align: center;
-  color: white;
-  background: gray;
-  position: fixed;
-  bottom: 0;
-  padding: 20px 0px;
+.h4 {
+  color: #fff;
+  margin: 0;
+  margin-left: auto;
 }
