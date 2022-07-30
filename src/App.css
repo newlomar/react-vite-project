@@ -27,6 +27,7 @@ body {
   color: #61dafb;
   font-weight: 700;
   margin: 0;
+  margin-left: 5px;
 }
 
 .h4 {
@@ -36,8 +37,12 @@ body {
   margin-left: auto;
 }
 
-.container {
-  margin: 60px 20px;
+.main {
+  height: 100%;
+  background-image: url('./assets/react-big-logo.png');
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  padding: 60px 20px;
 }
 
 .h1 {
@@ -49,6 +54,12 @@ body {
   color: #fff;
   max-width: 400px;
   margin-top: 40px;
+}
+
+.list-item::marker {
+  color: #61dafb;
+  font-size: 1.7rem;
+  vertical-align: bottom;
 }
 
 .list-item:not(:first-child) {

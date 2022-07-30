@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <main class='container'>
+    <main className='container main'>
       <h1 className='h1'>Fun facts about React</h1>
       <ul className='list'>
         <li className='list-item'>Was first released in 2013</li>
