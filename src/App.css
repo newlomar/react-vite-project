@@ -24,11 +24,13 @@ body {
 
 .h3 {
   color: #61dafb;
+  font-weight: 700;
   margin: 0;
 }
 
 .h4 {
   color: #fff;
+  font-weight: 600;
   margin: 0;
   margin-left: auto;
 }
